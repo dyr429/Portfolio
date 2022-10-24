@@ -24,6 +24,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import PropTypes from 'prop-types';
 import '../assets/index.css';
 import { formatDistance } from 'date-fns';
+import Publications from './publications';
 
 const GitProfile = ({ config }) => {
   const [error, setError] = useState(
@@ -184,6 +185,10 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
+                      <Publications
+                        loading = {loading}
+                        publications ={sanitizedConfig.publications}
+                      />
                       <Project
                         repo={repo}
                         loading={loading}
@@ -260,6 +265,13 @@ GitProfile.propTypes = {
         position: PropTypes.string,
         from: PropTypes.string,
         to: PropTypes.string,
+      })
+    ),
+    publiations: PropTypes.arrayOf(
+      PropTypes.shape({
+        author: PropTypes.string,
+        title: PropTypes.string,
+        publisher: PropTypes.string,
       })
     ),
     education: PropTypes.arrayOf(

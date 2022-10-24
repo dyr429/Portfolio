@@ -161,14 +161,6 @@ const Details = ({ profile, loading, social, github }) => {
                   link={`https://medium.com/@${social.medium}`}
                 />
               )}
-              {social?.dev && (
-                <ListItem
-                  icon={<FaDev className="mr-2" />}
-                  title="Dev:"
-                  value={social.dev}
-                  link={`https://dev.to/${social.dev}`}
-                />
-              )}
               {social?.website && (
                 <ListItem
                   icon={<FaGlobe className="mr-2" />}

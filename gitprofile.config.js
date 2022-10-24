@@ -4,84 +4,74 @@ const config = {
   github: {
     username: 'arifszn', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    facebook: '',
-    instagram: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/spike-d-94002392/',
+    twitter: '@dyr429',
+     // medium: 'arifszn',
+    website: 'https://dyr429.github.io',
+    email: 'yding5[at]wpi.edu',
   },
   resume: {
-    fileUrl: 'resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'Resume_Spike_Ding_2022.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
     'Nest.js',
+    'D3',
     'MySQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-    'Bootstrap',
+    'R'
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
-      to: 'Present',
+      company: 'Paypal',
+      position: 'Software Engineer Intern',
+      from: 'May 2022',
+      to: 'August 2022',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Lantos Technologies',
+      position: 'Software Developer Co-op',
+      from: 'August 2018',
+      to: 'Janurary 2019',
     },
   ],
+  publications: [
+    {
+      Title: 'Worcester Polytechnic Institute',
+      Author: 'Ph.D in Computer Science',
+      Publisher: '2019',
+    },
+    ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
-      degree: 'Bachelor of Science',
-      from: '2015',
+      institution: 'Worcester Polytechnic Institute',
+      degree: 'Ph.D in Computer Science',
+      from: '2019',
+      to: 'Current',
+    },
+    {
+      institution: 'Northeastern University',
+      degree: 'MS in Computer Science',
+      from: '2017',
       to: '2019',
-    },
-    {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
-    },
-    {
-      institution: 'Chowgacha Shahadat Pilot High School',
-      degree: 'Secondary School Certificate (SSC)',
-      from: '2007',
-      to: '2012',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 3, // How many posts to display. Max is 10.
-  },
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'arifszn', // to hide blog section, keep it empty
+  //   limit: 3, // How many posts to display. Max is 10.
+  // },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
     id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
