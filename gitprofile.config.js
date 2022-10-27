@@ -22,12 +22,14 @@ const config = {
   },
   skills: [
     'JavaScript',
+    'Java',
     'React.js',
     'Node.js',
     'Nest.js',
     'D3',
     'MySQL',
-    'Git',
+    'Firebase',
+    'GraphQL',
     'Docker',
     'R'
   ],
@@ -47,9 +49,24 @@ const config = {
   ],
   publications: [
     {
+      Title: 'Visualizing Classroom Dynamics with COILS: the Classroom Observation Interactive Learning System',
+      Author: 'Yiren Ding, Manas Mehta, Noëlle Rakotondravony, Andrew McReynolds, Caroline Useda, Tiffany Perry, Jennifer  LoCasale-Crouch, Erin Ottmar, Jacob Whitehill, Lane Harrison',
+      Publisher: 'In Submission',
+    },
+    {
+      Title: '“Probablement, Wahrscheinlich, Likely?” A Cross-Language Study of How People Verbalize Probabilities in Icon Array Visualizations',
+      Author: 'Noëlle Rakotondravony, Yiren Ding, Lane Harrison',
+      Publisher: 'IEEE Transactions on Visualization and Computer Graphics (2022).',
+    },
+    {
+      Title: 'VisQuiz: Exploring Feedback Mechanisms to Improve Graphical Perception',
+      Author: 'Ryan Birchfield, Maddison Caten, Errica Cheng, Madyson Kelly, Truman Larson, Hoang Phan Pham, Yiren Ding, Noëlle Rakotondravony, Lane Harrison',
+      Publisher: 'IEEE VIS 2022, arXiv preprint arXiv:2207.09534.',
+    },
+    {
       Title: 'Quantifying and Modeling how well Motion Visualizations Communicate Data',
       Author: 'Yiren Ding and Lane Harrison',
-      Publisher: 'Graduate Research Innovation Exchange Poster Session',
+      Publisher: 'WPI Graduate Research Innovation Exchange Poster Session (2020)',
     },
     ],
   education: [

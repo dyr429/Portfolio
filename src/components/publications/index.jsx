@@ -2,17 +2,21 @@ import { skeleton } from '../../helpers/utils';
 import { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const ListItem = ({ title, author, publisher }) => (
-  <li className="mb-5 ml-4">
-    <div
-      className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
-      style={{ left: '-4.5px' }}
-    ></div>
-    <div className="my-0.5 text-xs">{author}</div>
-    <h3 className="font-semibold">{title}</h3>
-    <div className="mb-4 font-normal">{publisher}</div>
-  </li>
-);
+const ListItem = ({ title, author, publisher }) => {
+
+
+  return (
+    <li className="mb-5 ml-4">
+      <div
+        className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
+        style={{ left: '-4.5px' }}
+      ></div>
+      <div className="my-0.5 text-xs">{author}</div>
+      <h3 className="font-semibold">{title}</h3>
+      <div className="mb-4 font-normal">{publisher}</div>
+    </li>
+  );
+}
 
 const Publications = ({ publications, loading }) => {
   const renderSkeleton = () => {
