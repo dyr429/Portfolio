@@ -2,8 +2,8 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    username: 'dyr429', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
     limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -47,9 +47,9 @@ const config = {
   ],
   publications: [
     {
-      Title: 'Worcester Polytechnic Institute',
-      Author: 'Ph.D in Computer Science',
-      Publisher: '2019',
+      Title: 'Quantifying and Modeling how well Motion Visualizations Communicate Data',
+      Author: 'Yiren Ding and Lane Harrison',
+      Publisher: 'Graduate Research Innovation Exchange Poster Session',
     },
     ],
   education: [
