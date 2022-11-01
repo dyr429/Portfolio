@@ -1,19 +1,46 @@
 import { skeleton } from '../../helpers/utils';
 import { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import AvatarCard from "../avatar-card";
+import Details from "../details";
+import Skill from "../skill";
+import Experience from "../experience";
+import Education from "../education";
 
-const ListItem = ({ title, author, publisher }) => {
+const ListItem = ({ title, author, publisher, thumbnail,link }) => {
 
 
   return (
     <li className="mb-5 ml-4">
-      <div
-        className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
-        style={{ left: '-4.5px' }}
-      ></div>
-      <div className="my-0.5 text-xs">{author}</div>
-      <h3 className="font-semibold">{title}</h3>
-      <div className="mb-4 font-normal">{publisher}</div>
+
+
+
+
+      <div className="p-4 lg:p-10 min-h-full ">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 rounded-box">
+
+          <div className="col-span-1">
+            <div className="grid grid-cols-1 gap-6">
+              <div
+                className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
+                style={{ left: '-4.5px' }}
+              ></div>
+              <img src={thumbnail}></img>
+
+
+            </div>
+          </div>
+          <div className="lg:col-span-3 col-span-1">
+            <div className="grid grid-cols-1 gap-2">
+
+              <div className="my-0.5 text-xs">{author}</div>
+              <h3 className="font-semibold">{title}</h3>
+              <div className="mb-4 font-normal">{publisher}</div>
+              <a href={link}>pdf</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </li>
   );
 }
@@ -70,6 +97,8 @@ const Publications = ({ publications, loading }) => {
                         author={publication.Author}
                         title={publication.Title}
                         publisher={publication.Publisher}
+                        thumbnail={publication.thumbnail}
+                        link={publication.link}
                       />
                     ))}
                   </Fragment>
