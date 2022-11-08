@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/spike-d-94002392/',
+    linkedin: 'spike-d-94002392',
     twitter: '@dyr429',
      // medium: 'arifszn',
     website: 'https://dyr429.github.io',
