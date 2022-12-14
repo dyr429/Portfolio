@@ -52,9 +52,16 @@ const config = {
   ],
   publications: [
     {
+      Title: 'The Risks of Ranking: Revisiting Graphical Perception to Model Individual Differences in Visualization Performance',
+      Author: 'Russell Davis, Xiaoying Pu, Yiren Ding, Brian D. Hall, Karen Bonilla, Mi Feng, Matthew Kay, and Lane Harrison',
+      Publisher: 'IEEE Transactions on Visualization and Computer Graphics (2022)',
+      link:'https://ieeexplore.ieee.org/document/9978718',
+      thumbnail:'reversing.png'
+    },
+    {
       Title: 'Visualizing Classroom Dynamics with COILS: the Classroom Observation Interactive Learning System',
       Author: 'Yiren Ding, Manas Mehta, Noëlle Rakotondravony, Andrew McReynolds, Caroline Useda, Tiffany Perry, Jennifer  LoCasale-Crouch, Erin Ottmar, Jacob Whitehill, Lane Harrison',
-      Publisher: 'In Submission',
+      Publisher: 'In submission',
       thumbnail:'acorn.png'
     },
     {
