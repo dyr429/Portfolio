@@ -7,7 +7,7 @@ import Skill from "../skill";
 import Experience from "../experience";
 import Education from "../education";
 
-const ListItem = ({ title, author, publisher, thumbnail,link }) => {
+const ListItem = ({ title, author, publisher, thumbnail,link,horner }) => {
 
 
   return (
@@ -35,6 +35,7 @@ const ListItem = ({ title, author, publisher, thumbnail,link }) => {
 
               <div className="my-0.5 text-xs">{author}</div>
               <h3 className="font-semibold">{title}</h3>
+              <h3 className="font-semibold">{horner}</h3>
               <div className="mb-4 font-normal">{publisher}</div>
               <a href={link}>pdf</a>
             </div>
@@ -99,6 +100,7 @@ const Publications = ({ publications, loading }) => {
                         publisher={publication.Publisher}
                         thumbnail={publication.thumbnail}
                         link={publication.link}
+                        horner={publication.horner}
                       />
                     ))}
                   </Fragment>

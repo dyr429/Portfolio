@@ -18,7 +18,7 @@ const config = {
     email: 'yding5[at]wpi.edu',
   },
   resume: {
-    fileUrl: 'Resume_Spike_Ding_2022.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'Resume_2023.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -40,6 +40,12 @@ const config = {
     {
       company: 'Paypal',
       position: 'Software Engineer Intern',
+      from: 'May 2023',
+      to: 'August 2023',
+    },
+    {
+      company: 'Paypal',
+      position: 'Software Engineer Intern',
       from: 'May 2022',
       to: 'August 2022',
     },
@@ -51,6 +57,21 @@ const config = {
     },
   ],
   publications: [
+    {
+      Title: 'Data in the Wind: Evaluating Multiple-Encoding Design for Particle Motion Visualizations',
+      Author: 'Yiren Ding  and Lane Harrison',
+      Publisher: 'VIS 2023',
+      link:'https://osf.io/4zxt6',
+      thumbnail:'wind.png',
+      horner: "Hornerable Mention"
+    },
+    {
+      Title: 'reVISit: Supporting Scalable Evaluation of Interactive Visualizations',
+      Author: 'Yiren Ding, Jack Wilburn, Hilson Shrestha, Akim Ndlovu, Kiran Gadhave, Carolina Nobre, Alexander lex and Lane Harrison',
+      Publisher: 'VIS 2023',
+      link:'https://osf.io/preprints/hdzyv/',
+      thumbnail:'revisit.png'
+    },
     {
       Title: 'The Risks of Ranking: Revisiting Graphical Perception to Model Individual Differences in Visualization Performance',
       Author: 'Russell Davis, Xiaoying Pu, Yiren Ding, Brian D. Hall, Karen Bonilla, Mi Feng, Matthew Kay, and Lane Harrison',
